@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timezone
 from dateutil import tz
 
 utc_dt = datetime.now(timezone.utc)  # UTC time
